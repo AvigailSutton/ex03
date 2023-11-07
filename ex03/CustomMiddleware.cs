@@ -12,9 +12,9 @@
 
         public async Task InvokeAsync(HttpContext httpContext)
         {
-            Console.WriteLine("ggggfffff");
+            Console.WriteLine("fffff");
             await request(httpContext);
-            await httpContext.Response.WriteAsync("    kkkkkaaaaaaa");
+            await httpContext.Response.WriteAsync("    rrrrrrr");
         }
     }
 }
